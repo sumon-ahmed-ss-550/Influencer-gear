@@ -62,7 +62,7 @@
   background-position: 88% center;
 }
 
-/* header */
+/* header-section */
 .navbar {
   justify-content: space-between;
   align-items: center;
@@ -102,7 +102,7 @@
   height: 36px;
 }
 
-/* influencer */
+/* influencer-section */
 .influencer {
   justify-content: space-between;
   align-items: center;
@@ -139,7 +139,7 @@
   padding: 16px;
 }
 
-/* online-shopping */
+/* online-shopping-section */
 .shopping {
   margin-top: 70px;
   display: grid;
@@ -148,7 +148,7 @@
   justify-items: center;
 }
 
-/* popular-collection */
+/* popular-collection-section */
 .popular-collection {
   margin-top: 100px;
 }
@@ -220,4 +220,63 @@
   line-height: var(--line-auto);
   background-image: url("../images/Group.png");
   padding-right: 40px;
+}
+
+/* features-section */
+.features {
+  margin: 100px 0;
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+.feature-img img {
+  width: 404px;
+}
+.feature-content .feature-title {
+  color: #0a0826;
+  font-weight: var(--fw-bold);
+  font-size: 2.28rem;
+  line-height: 60px;
+  margin-bottom: 1rem;
+}
+.feature-content .feature-text {
+  margin-bottom: 1rem;
+  color: #6c6c6c;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-bold);
+  line-height: 28px;
+}
+
+/* footer-section */
+footer {
+  padding: 50px 0;
+  background-color: #0a0826;
+}
+.footer-content {
+  width: 262px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-content .footer-title {
+  color: #ffffff;
+  font-size: var(--fs-24);
+  font-weight: var(--fw-bold);
+  line-height: var(--line-auto);
+}
+.footer-content .footer-text {
+  color: #d9dbe1;
+  font-size: 0.84rem;
+  line-height: 24px;
+  font-weight: var(--fw-bold);
+  margin-bottom: 17px;
+}
+.footer-content .footer-nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.footer-content .fontAwesome {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
 }
