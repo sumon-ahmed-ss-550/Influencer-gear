@@ -1,4 +1,12 @@
 /* header */
+@media only screen and (max-width: 1080px) {
+  .popular-collection .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .popular-collection .see-more {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 992px) {
   .influencer {
     flex-direction: column-reverse;
@@ -16,6 +24,10 @@
 @media only screen and (max-width: 768px) {
   .navbar .navbar-nav {
     gap: 1rem;
+  }
+  .popular-collection .card-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 @media only screen and (max-width: 700px) {
