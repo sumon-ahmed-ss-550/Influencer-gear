@@ -1,0 +1,41 @@
+/* header */
+@media only screen and (max-width: 992px) {
+  .influencer {
+    flex-direction: column-reverse;
+    gap: 70px;
+    margin-top: 80px;
+  }
+  .influencer .influencer-content {
+    text-align: center;
+  }
+  .shopping {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar .navbar-nav {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .navbar .icons {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar .navbar-nav {
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+  .influencer .influencer-content {
+    max-width: 100%;
+  }
+  .shopping {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
